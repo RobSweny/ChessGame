@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "ChessGameModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ChessGameModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ChessGameModel.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ChessGameModel/1.0.0": {
+      "type": "project",
+      "path": "../ChessGameModel/ChessGameModel.csproj",
+      "msbuildProject": "../ChessGameModel/ChessGameModel.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "ChessGameModel >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Rob\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Rob\\source\\repos\\ChessGame\\ChessGameModel\\ChessGameModel.csproj": {
+              "projectPath": "C:\\Users\\Rob\\source\\repos\\ChessGame\\ChessGameModel\\ChessGameModel.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

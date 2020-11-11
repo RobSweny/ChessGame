@@ -1,0 +1,9 @@
+C:\Users\Rob\source\repos\ChessGame\ChessGameModel\bin\Debug\netstandard2.0\ChessGameModel.deps.json
+C:\Users\Rob\source\repos\ChessGame\ChessGameModel\bin\Debug\netstandard2.0\ChessGameModel.dll
+C:\Users\Rob\source\repos\ChessGame\ChessGameModel\bin\Debug\netstandard2.0\ChessGameModel.pdb
+C:\Users\Rob\source\repos\ChessGame\ChessGameModel\obj\Debug\netstandard2.0\ChessGameModel.csprojAssemblyReference.cache
+C:\Users\Rob\source\repos\ChessGame\ChessGameModel\obj\Debug\netstandard2.0\ChessGameModel.AssemblyInfoInputs.cache
+C:\Users\Rob\source\repos\ChessGame\ChessGameModel\obj\Debug\netstandard2.0\ChessGameModel.AssemblyInfo.cs
+C:\Users\Rob\source\repos\ChessGame\ChessGameModel\obj\Debug\netstandard2.0\ChessGameModel.csproj.CoreCompileInputs.cache
+C:\Users\Rob\source\repos\ChessGame\ChessGameModel\obj\Debug\netstandard2.0\ChessGameModel.dll
+C:\Users\Rob\source\repos\ChessGame\ChessGameModel\obj\Debug\netstandard2.0\ChessGameModel.pdb

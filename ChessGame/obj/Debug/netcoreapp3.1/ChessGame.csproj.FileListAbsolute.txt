@@ -1,0 +1,16 @@
+C:\Users\Rob\source\repos\ChessGame\ChessGame\bin\Debug\netcoreapp3.1\ChessGame.exe
+C:\Users\Rob\source\repos\ChessGame\ChessGame\bin\Debug\netcoreapp3.1\ChessGame.deps.json
+C:\Users\Rob\source\repos\ChessGame\ChessGame\bin\Debug\netcoreapp3.1\ChessGame.runtimeconfig.json
+C:\Users\Rob\source\repos\ChessGame\ChessGame\bin\Debug\netcoreapp3.1\ChessGame.runtimeconfig.dev.json
+C:\Users\Rob\source\repos\ChessGame\ChessGame\bin\Debug\netcoreapp3.1\ChessGame.dll
+C:\Users\Rob\source\repos\ChessGame\ChessGame\bin\Debug\netcoreapp3.1\ChessGame.pdb
+C:\Users\Rob\source\repos\ChessGame\ChessGame\bin\Debug\netcoreapp3.1\ChessGameModel.dll
+C:\Users\Rob\source\repos\ChessGame\ChessGame\bin\Debug\netcoreapp3.1\ChessGameModel.pdb
+C:\Users\Rob\source\repos\ChessGame\ChessGame\obj\Debug\netcoreapp3.1\ChessGame.csprojAssemblyReference.cache
+C:\Users\Rob\source\repos\ChessGame\ChessGame\obj\Debug\netcoreapp3.1\ChessGame.AssemblyInfoInputs.cache
+C:\Users\Rob\source\repos\ChessGame\ChessGame\obj\Debug\netcoreapp3.1\ChessGame.AssemblyInfo.cs
+C:\Users\Rob\source\repos\ChessGame\ChessGame\obj\Debug\netcoreapp3.1\ChessGame.csproj.CoreCompileInputs.cache
+C:\Users\Rob\source\repos\ChessGame\ChessGame\obj\Debug\netcoreapp3.1\ChessGame.csproj.CopyComplete
+C:\Users\Rob\source\repos\ChessGame\ChessGame\obj\Debug\netcoreapp3.1\ChessGame.dll
+C:\Users\Rob\source\repos\ChessGame\ChessGame\obj\Debug\netcoreapp3.1\ChessGame.pdb
+C:\Users\Rob\source\repos\ChessGame\ChessGame\obj\Debug\netcoreapp3.1\ChessGame.genruntimeconfig.cache
