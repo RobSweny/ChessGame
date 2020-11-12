@@ -47,28 +47,60 @@ namespace ChessGameModel
             switch (chessPeice)
             {
                 case "Knight":
-                    try { theGrid[currentCell.RowNumber + 2, currentCell.ColumnNumber + 1].LegalNextMove = true; } catch (Exception ex) { }
-                    try { theGrid[currentCell.RowNumber + 2, currentCell.ColumnNumber + 1].LegalNextMove = true; } catch (Exception ex) { }
-                    try { theGrid[currentCell.RowNumber + 2, currentCell.ColumnNumber - 1].LegalNextMove = true; } catch (Exception ex) { }
-                    try { theGrid[currentCell.RowNumber - 2, currentCell.ColumnNumber + 1].LegalNextMove = true; } catch (Exception ex) { }
-                    try { theGrid[currentCell.RowNumber - 2, currentCell.ColumnNumber - 1].LegalNextMove = true; } catch (Exception ex) { }
-                    try { theGrid[currentCell.RowNumber + 1, currentCell.ColumnNumber + 2].LegalNextMove = true; } catch (Exception ex) { }
-                    try { theGrid[currentCell.RowNumber + 1, currentCell.ColumnNumber - 2].LegalNextMove = true; } catch (Exception ex) { }
-                    try { theGrid[currentCell.RowNumber - 1, currentCell.ColumnNumber + 2].LegalNextMove = true; } catch (Exception ex) { }
-                    try { theGrid[currentCell.RowNumber - 1, currentCell.ColumnNumber - 2].LegalNextMove = true; } catch (Exception ex) { }
+                    try { theGrid[currentCell.RowNumber + 2, currentCell.ColumnNumber + 1].LegalNextMove = true; } catch (Exception) { }
+                    try { theGrid[currentCell.RowNumber + 2, currentCell.ColumnNumber + 1].LegalNextMove = true; } catch (Exception) { }
+                    try { theGrid[currentCell.RowNumber + 2, currentCell.ColumnNumber - 1].LegalNextMove = true; } catch (Exception) { }
+                    try { theGrid[currentCell.RowNumber - 2, currentCell.ColumnNumber + 1].LegalNextMove = true; } catch (Exception) { }
+                    try { theGrid[currentCell.RowNumber - 2, currentCell.ColumnNumber - 1].LegalNextMove = true; } catch (Exception) { }
+                    try { theGrid[currentCell.RowNumber + 1, currentCell.ColumnNumber + 2].LegalNextMove = true; } catch (Exception) { }
+                    try { theGrid[currentCell.RowNumber + 1, currentCell.ColumnNumber - 2].LegalNextMove = true; } catch (Exception) { }
+                    try { theGrid[currentCell.RowNumber - 1, currentCell.ColumnNumber + 2].LegalNextMove = true; } catch (Exception) { }
+                    try { theGrid[currentCell.RowNumber - 1, currentCell.ColumnNumber - 2].LegalNextMove = true; } catch (Exception) { }
                     break;
 
                 case "King":
-                    theGrid[currentCell.RowNumber + 1, currentCell.ColumnNumber + 1].LegalNextMove = true;
+                    try { theGrid[currentCell.RowNumber + 1, currentCell.ColumnNumber + 1].LegalNextMove = true; } catch (Exception) { }
+                    try { theGrid[currentCell.RowNumber + 1, currentCell.ColumnNumber - 1].LegalNextMove = true; } catch (Exception) { }
+                    try { theGrid[currentCell.RowNumber - 1, currentCell.ColumnNumber + 1].LegalNextMove = true; } catch (Exception) { }
+                    try { theGrid[currentCell.RowNumber - 1, currentCell.ColumnNumber - 1].LegalNextMove = true; } catch (Exception) { }
+                    try { theGrid[currentCell.RowNumber + 0, currentCell.ColumnNumber + 1].LegalNextMove = true; } catch (Exception) { }
+                    try { theGrid[currentCell.RowNumber + 0, currentCell.ColumnNumber - 1].LegalNextMove = true; } catch (Exception) { }
+                    try { theGrid[currentCell.RowNumber + 1, currentCell.ColumnNumber - 0].LegalNextMove = true; } catch (Exception) { }
+                    try { theGrid[currentCell.RowNumber - 1, currentCell.ColumnNumber - 0].LegalNextMove = true; } catch (Exception) { }
                     break;
 
                 case "Rook":
+                    for (int i = 0; i <= 8; i++)
+                    {
+                        try { theGrid[currentCell.RowNumber - i, currentCell.ColumnNumber - 0].LegalNextMove = true; } catch (Exception) { }
+                        try { theGrid[currentCell.RowNumber + i, currentCell.ColumnNumber - 0].LegalNextMove = true; } catch (Exception) { }
+                        try { theGrid[currentCell.RowNumber - 0, currentCell.ColumnNumber - i].LegalNextMove = true; } catch (Exception) { }
+                        try { theGrid[currentCell.RowNumber - 0, currentCell.ColumnNumber + i].LegalNextMove = true; } catch (Exception) { }
+                    }
                     break;
 
                 case "Bishop":
+                    for (int i = 0; i <= 8; i++)
+                    {
+                        try { theGrid[currentCell.RowNumber + i, currentCell.ColumnNumber + i].LegalNextMove = true; } catch (Exception) { }
+                        try { theGrid[currentCell.RowNumber + i, currentCell.ColumnNumber - i].LegalNextMove = true; } catch (Exception) { }
+                        try { theGrid[currentCell.RowNumber - i, currentCell.ColumnNumber + i].LegalNextMove = true; } catch (Exception) { }
+                        try { theGrid[currentCell.RowNumber - i, currentCell.ColumnNumber - i].LegalNextMove = true; } catch (Exception) { }
+                    }
                     break;
 
                 case "Queen":
+                    for (int i = 0; i <= 8; i++)
+                    {
+                        try { theGrid[currentCell.RowNumber - i, currentCell.ColumnNumber - 0].LegalNextMove = true; } catch (Exception) { }
+                        try { theGrid[currentCell.RowNumber + i, currentCell.ColumnNumber - 0].LegalNextMove = true; } catch (Exception) { }
+                        try { theGrid[currentCell.RowNumber - 0, currentCell.ColumnNumber - i].LegalNextMove = true; } catch (Exception) { }
+                        try { theGrid[currentCell.RowNumber - 0, currentCell.ColumnNumber + i].LegalNextMove = true; } catch (Exception) { }
+                        try { theGrid[currentCell.RowNumber + i, currentCell.ColumnNumber + i].LegalNextMove = true; } catch (Exception) { }
+                        try { theGrid[currentCell.RowNumber + i, currentCell.ColumnNumber - i].LegalNextMove = true; } catch (Exception) { }
+                        try { theGrid[currentCell.RowNumber - i, currentCell.ColumnNumber + i].LegalNextMove = true; } catch (Exception) { }
+                        try { theGrid[currentCell.RowNumber - i, currentCell.ColumnNumber - i].LegalNextMove = true; } catch (Exception) { }
+                    }
                     break;
 
                 default:
