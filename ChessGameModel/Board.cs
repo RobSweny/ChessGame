@@ -47,14 +47,15 @@ namespace ChessGameModel
             switch (chessPeice)
             {
                 case "Knight":
-                    theGrid[currentCell.RowNumber + 2, currentCell.ColumnNumber + 1].LegalNextMove = true;
-                    theGrid[currentCell.RowNumber + 2, currentCell.ColumnNumber - 1].LegalNextMove = true;
-                    theGrid[currentCell.RowNumber - 2, currentCell.ColumnNumber + 1].LegalNextMove = true;
-                    theGrid[currentCell.RowNumber - 2, currentCell.ColumnNumber - 1].LegalNextMove = true;
-                    theGrid[currentCell.RowNumber + 1, currentCell.ColumnNumber + 2].LegalNextMove = true;
-                    theGrid[currentCell.RowNumber + 1, currentCell.ColumnNumber - 2].LegalNextMove = true;
-                    theGrid[currentCell.RowNumber - 1, currentCell.ColumnNumber + 2].LegalNextMove = true;
-                    theGrid[currentCell.RowNumber - 1, currentCell.ColumnNumber - 2].LegalNextMove = true;
+                    try { theGrid[currentCell.RowNumber + 2, currentCell.ColumnNumber + 1].LegalNextMove = true; } catch (Exception ex) { }
+                    try { theGrid[currentCell.RowNumber + 2, currentCell.ColumnNumber + 1].LegalNextMove = true; } catch (Exception ex) { }
+                    try { theGrid[currentCell.RowNumber + 2, currentCell.ColumnNumber - 1].LegalNextMove = true; } catch (Exception ex) { }
+                    try { theGrid[currentCell.RowNumber - 2, currentCell.ColumnNumber + 1].LegalNextMove = true; } catch (Exception ex) { }
+                    try { theGrid[currentCell.RowNumber - 2, currentCell.ColumnNumber - 1].LegalNextMove = true; } catch (Exception ex) { }
+                    try { theGrid[currentCell.RowNumber + 1, currentCell.ColumnNumber + 2].LegalNextMove = true; } catch (Exception ex) { }
+                    try { theGrid[currentCell.RowNumber + 1, currentCell.ColumnNumber - 2].LegalNextMove = true; } catch (Exception ex) { }
+                    try { theGrid[currentCell.RowNumber - 1, currentCell.ColumnNumber + 2].LegalNextMove = true; } catch (Exception ex) { }
+                    try { theGrid[currentCell.RowNumber - 1, currentCell.ColumnNumber - 2].LegalNextMove = true; } catch (Exception ex) { }
                     break;
 
                 case "King":
